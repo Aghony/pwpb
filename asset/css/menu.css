@@ -1,0 +1,118 @@
+@import url('https://fonts.cdnfonts.com/css/holtwood-one-sc');
+@import url('https://fonts.cdnfonts.com/css/bruno-ace-sc');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    background-color: rgb(12, 53, 106);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background: #FFC436;
+    align-items: center;
+
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    background: #FFC436;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: #ffffff ;
+    color: black;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+
+}
+
+header{
+    background-color: rgb(255, 196, 54);
+    margin: 0;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* padding: 5px; */
+    /* height: 100px; */
+    width: 100%;
+    position: fixed;
+}
+
+.logo{
+    height: 50px;
+    padding-left: 30px;
+}
+.menu{
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Holtwood One SC', sans-serif;
+}
+
+.menu-v{
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: 'Holtwood One SC', sans-serif;
+}
+
+.bagian1{
+    background-image: url(/asset/img/backgrond.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    width: auto;
+    height: 800px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-1{
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-size: 50px;
+}
+
+.t-2{
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-size: 100px;
+}
+
+.bagian1 img{
+    margin-top: 20px;
+}
+
+
