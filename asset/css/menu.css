@@ -46,7 +46,7 @@ ul li ul.dropdown {
 }
 
 ul li a:hover {
-    background: #ffffff ;
+    
     color: black;
 }
 
@@ -70,6 +70,9 @@ header{
 .logo{
     height: 50px;
     padding-left: 30px;
+}
+.menu-font {
+    font-family: 'Holtwood One SC', sans-serif;
 }
 .menu{
     text-decoration: none;
